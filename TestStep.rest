@@ -1,0 +1,252 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "TestStep.rest",
+  "BaseName": "TestStep",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "MoveStep",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps/{source_test_step_id}/move?destination_test_step_id={destination_test_step_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "source_test_step_id",
+          "TokenName": "{source_test_step_id}",
+          "Value": ""
+        },
+        {
+          "Name": "destination_test_step_id",
+          "TokenName": "{destination_test_step_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "DeleteStep",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps/{test_step_id}",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_step_id",
+          "TokenName": "{test_step_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "AddStep",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "RetrieveSteps",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "RetrieveStepById",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps/{test_step_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_step_id",
+          "TokenName": "{test_step_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "UpdateStep",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

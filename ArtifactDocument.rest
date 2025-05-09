@@ -1,0 +1,57 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "ArtifactDocument.rest",
+  "BaseName": "ArtifactDocument",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "RetrieveForArtifact2",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/artifact-types/{artifact_type_id}/artifacts/{artifact_id}/documents/search?sort_by={sort_by}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "artifact_type_id",
+          "TokenName": "{artifact_type_id}",
+          "Value": ""
+        },
+        {
+          "Name": "artifact_id",
+          "TokenName": "{artifact_id}",
+          "Value": ""
+        },
+        {
+          "Name": "sort_by",
+          "TokenName": "{sort_by}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

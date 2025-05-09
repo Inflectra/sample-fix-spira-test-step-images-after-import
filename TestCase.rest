@@ -1,0 +1,471 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "TestCase.rest",
+  "BaseName": "TestCase",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Create",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "RetrieveById",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Update",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Delete",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "AddUpdateAutomationScript",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/add-update-automation-script?automation_engine_id={automation_engine_id}&url_or_filename={url_or_filename}&description={description}&version={version}&project_attachment_type_id={project_attachment_type_id}&project_attachment_folder_id={project_attachment_folder_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "automation_engine_id",
+          "TokenName": "{automation_engine_id}",
+          "Value": ""
+        },
+        {
+          "Name": "url_or_filename",
+          "TokenName": "{url_or_filename}",
+          "Value": ""
+        },
+        {
+          "Name": "description",
+          "TokenName": "{description}",
+          "Value": ""
+        },
+        {
+          "Name": "version",
+          "TokenName": "{version}",
+          "Value": ""
+        },
+        {
+          "Name": "project_attachment_type_id",
+          "TokenName": "{project_attachment_type_id}",
+          "Value": ""
+        },
+        {
+          "Name": "project_attachment_folder_id",
+          "TokenName": "{project_attachment_folder_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Count1",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/count?release_id={release_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Count2",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/count?release_id={release_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Retrieve1",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases?starting_row={starting_row}&number_of_rows={number_of_rows}&sort_field={sort_field}&sort_direction={sort_direction}&release_id={release_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "starting_row",
+          "TokenName": "{starting_row}",
+          "Value": ""
+        },
+        {
+          "Name": "number_of_rows",
+          "TokenName": "{number_of_rows}",
+          "Value": ""
+        },
+        {
+          "Name": "sort_field",
+          "TokenName": "{sort_field}",
+          "Value": ""
+        },
+        {
+          "Name": "sort_direction",
+          "TokenName": "{sort_direction}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Retrieve2",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/search?starting_row={starting_row}&number_of_rows={number_of_rows}&sort_field={sort_field}&sort_direction={sort_direction}&release_id={release_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "starting_row",
+          "TokenName": "{starting_row}",
+          "Value": ""
+        },
+        {
+          "Name": "number_of_rows",
+          "TokenName": "{number_of_rows}",
+          "Value": ""
+        },
+        {
+          "Name": "sort_field",
+          "TokenName": "{sort_field}",
+          "Value": ""
+        },
+        {
+          "Name": "sort_direction",
+          "TokenName": "{sort_direction}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Move",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/move?test_case_folder_id={test_case_folder_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_folder_id",
+          "TokenName": "{test_case_folder_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "RetrieveForOwner",
+      "Url": "https://api.inflectra.com/Spira/Services/v7_0/RestService.svc/test-cases",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": []
+    }
+  ]
+}
